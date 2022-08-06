@@ -14,9 +14,7 @@ public class EndsWith {
         boolean result = true;
         for (int i = 0; i < post.length; i++) {
             int indexPost = word.length - post.length;
-            if (post[i] == word[indexPost + i]) {
-                result = true;
-            } else {
+            if (post[i] != word[indexPost + i]) {
                 result = false;
                 break;
             }
