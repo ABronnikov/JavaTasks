@@ -12,8 +12,7 @@ class EndsWithTest {
         char[] word = {'П','р','и','в','е','т'};
         char[] post = {'в','е','т'};
         boolean result = endsWith(word, post);
-        boolean expected = true;
-        Assertions.assertEquals(expected, result);
+        Assertions.assertTrue(result);
     }
 
     @Test
@@ -21,8 +20,7 @@ class EndsWithTest {
         char[] word = {'П','р','и','в','е','т'};
         char[] post = {'в','у','т'};
         boolean result = endsWith(word, post);
-        boolean expected = false;
-        Assertions.assertEquals(expected, result);
+        Assertions.assertFalse(result);
     }
 
     @Test
@@ -30,8 +28,7 @@ class EndsWithTest {
         char[] word = {};
         char[] post = {};
         boolean result = endsWith(word, post);
-        boolean expected = false;
-        Assertions.assertEquals(expected, result);
+        Assertions.assertFalse(result);
     }
 
     @Test
@@ -39,8 +36,7 @@ class EndsWithTest {
         char[] word = {'п'};
         char[] post = {};
         boolean result = endsWith(word, post);
-        boolean expected = false;
-        Assertions.assertEquals(expected, result);
+        Assertions.assertFalse(result);
     }
 
     @Test
@@ -48,7 +44,6 @@ class EndsWithTest {
         char[] word = {};
         char[] post = {'п'};
         boolean result = endsWith(word, post);
-        boolean expected = false;
-        Assertions.assertEquals(expected, result);
+        Assertions.assertFalse(result);
     }
 }

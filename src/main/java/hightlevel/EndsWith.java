@@ -11,20 +11,17 @@ public class EndsWith {
      */
 
     public static boolean endsWith(char[] word, char[] post) {
-        boolean result = true;
 
         if (word.length < post.length || post.length == 0) {
-            result = false;
+            return false;
         } else {
             for (int i = 0; i < post.length; i++) {
                 int indexPost = word.length - post.length;
                 if (post[i] != word[indexPost + i]) {
-                    result = false;
-                    break;
+                    return false;
                 }
             }
         }
-
-        return result;
+        return true;
     }
 }
