@@ -22,14 +22,10 @@ public class ChangeData {
 
         int[] dataNotEven = new int[count];
 
-        for (int datum : data) {
-            if (datum % 2 != 0) {
-                for (int j = 0; j < dataNotEven.length; j++) {
-                    if (dataNotEven[j] == 0) {
-                        dataNotEven[j] = datum;
-                        break;
-                    }
-                }
+        for (int i = data.length - 1; i >= 0; i--) {
+            if (data[i] % 2 != 0) {
+                count--;
+                dataNotEven[count] = data[i];
             }
         }
 
