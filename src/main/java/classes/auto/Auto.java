@@ -15,10 +15,10 @@ import java.util.Objects;
 
 public class Auto {
 
-    private String model;
-    private String brand;
-    private String numberOfPassengerSeats;
-    private String transmissionType;
+    private final String model;
+    private final String brand;
+    private final String numberOfPassengerSeats;
+    private final String transmissionType;
 
     public Auto(String model, String brand, String numberOfPassengerSeats, String transmissionType) {
         this.model = model;
