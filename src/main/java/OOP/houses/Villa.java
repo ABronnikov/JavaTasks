@@ -4,9 +4,11 @@ public class Villa extends House {
 
     private Residents residents;
 
-    public Villa(Foundation foundation, Residents residents) {
+    public Villa(Foundation foundation) {
         super(foundation);
-        this.residents = residents;
     }
 
+    public void setResidents(Residents residents) {
+        this.residents = residents;
+    }
 }
