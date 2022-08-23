@@ -11,8 +11,6 @@ Y
 .src/main/java/Basic/hightlevel/ChangeData.java,9/a/9af451a382b6005b493f1038b9c77c9765db899e
 ^
 .src/main/java/Basic/arrays/FirstArrayTask.java,8/5/85162e7690af3838c4bbfe10ac311b08672fbd54
-7
-pom.xml,4/4/442292b8a7efeabbe4cc176709b833b1792140ec
 _
 /src/main/java/Basic/arrays/SecondArrayTask.java,e/9/e94071b11d92b71b07c2951462d2c04169acad02
 _
