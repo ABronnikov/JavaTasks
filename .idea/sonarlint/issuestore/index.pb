@@ -117,7 +117,3 @@ Y
 )src/main/java/basic/string/BigString.java,7/5/75ba4bcc4a6f91b61d51a0a0eb64eae8e45e9f38
 7
 pom.xml,4/4/442292b8a7efeabbe4cc176709b833b1792140ec
-Z
-*src/test/java/oop/pair/KeyServiceTest.java,8/b/8b4dfdcf479277afddf03225b866a26b0d450b06
-]
--src/test/java/oop/point/PointServiceTest.java,1/0/108dc31ab03bb8a5f765bb2e5548d7252de7a6a1
