@@ -18,13 +18,9 @@ public class Point {
         this.pointY = pointY;
     }
 
-    public static double distance(Point point1, Point point2) {
-        if (Objects.nonNull(point1) && Objects.nonNull(point2)) {
-            return sqrt(pow((point2.getPointX() - point1.getPointX()), 2) + pow(
-                (point2.getPointY() - point1.getPointY()), 2));
-        } else {
-            return 0.0;
-        }
+    public double distance(Point point) {
+        return sqrt(pow((point.getPointX() - this.pointX), 2) + pow(
+            (point.getPointY() - this.pointY), 2));
     }
 
     public int getPointX() {
