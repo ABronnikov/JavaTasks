@@ -23,14 +23,10 @@ public class KeyService {
      */
     public BigInteger getHash(Pair pair) {
         StringBuilder stringBuilderFinal = new StringBuilder();
-        for (int i =0; i < pair.getFirstKey().length(); i++) {
-            if (contains(pair.getFirstKey().charAt(i))) {
-                stringBuilderFinal.append(pair.getFirstKey().charAt(i));
-            }
-        }
-        for (int i =0; i < pair.getSecondKey().length(); i++) {
-            if (contains(pair.getSecondKey().charAt(i))) {
-                stringBuilderFinal.append(pair.getSecondKey().charAt(i));
+        String key = pair.getFirstKey().concat(pair.getSecondKey());
+        for (int i =0; i < key.length(); i++) {
+            if (contains(key.charAt(i))) {
+                stringBuilderFinal.append(key.charAt(i));
             }
         }
         return String.valueOf(stringBuilderFinal).length() > 0 ? new BigInteger(String.valueOf(stringBuilderFinal)) : BigInteger.ZERO;
