@@ -1,7 +1,5 @@
 package oop.secure;
 
-import java.util.Arrays;
-
 public class SslSecure {
 
     private final String DOMAIN = ".com";
