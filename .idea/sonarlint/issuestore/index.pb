@@ -117,3 +117,15 @@ Y
 )src/main/java/basic/string/BigString.java,7/5/75ba4bcc4a6f91b61d51a0a0eb64eae8e45e9f38
 7
 pom.xml,4/4/442292b8a7efeabbe4cc176709b833b1792140ec
+Z
+*src/test/java/oop/pair/KeyServiceTest.java,8/b/8b4dfdcf479277afddf03225b866a26b0d450b06
+V
+&src/main/java/oop/pair/KeyService.java,b/0/b0aa19fab7f83739adc0390b0d09dee4826fc166
+P
+ src/main/java/oop/pair/Pair.java,2/1/2139a6c3fbbe0cc16b2a66b081e85da56985e9e1
+V
+&src/test/java/oop/point/PointTest.java,a/7/a7797e59a251151d0410f77ff014bedc9cbfa518
+R
+"src/main/java/oop/point/Point.java,f/3/f3ec33e10cb03c6d833ecf9859af80f31574adc4
+[
++src/test/java/oop/secure/SslSecureTest.java,b/0/b072110a95098002a08ae89cc3f91c829a4d7caf
