@@ -129,3 +129,35 @@ R
 "src/main/java/oop/point/Point.java,f/3/f3ec33e10cb03c6d833ecf9859af80f31574adc4
 [
 +src/test/java/oop/secure/SslSecureTest.java,b/0/b072110a95098002a08ae89cc3f91c829a4d7caf
+`
+0src/main/java/oop/arrayfunction/ArrayDetail.java,1/2/12cfe24c249d74a955781a3bf9ed0ba51b127ccc
+S
+#src/main/java/oop/fly/Aircraft.java,a/6/a6280f00a2e653a73ea6511a62addb94c73aeed5
+O
+src/main/java/oop/fly/Bird.java,e/a/ea6663f3d3449857f0c0eb51aa1718f644b2e8ac
+R
+"src/main/java/oop/fly/Flyable.java,c/6/c6ffa8979cb971a02f5aa347193f3a2c7897107b
+W
+'src/main/java/oop/csv/CsvFormatter.java,b/c/bcadcb0f987922ce76a9c04d666a9b54de06c9e8
+[
++src/test/java/oop/csv/CsvFormatterTest.java,a/a/aaff2be755e60411ccd0a4e42fe44779d5bca671
+R
+"src/main/java/oop/csv/CsvText.java,e/b/eb0c165b94a0e760a67eca32b29937b11b4d91ec
+Q
+!src/main/java/oop/csv/Person.java,0/4/04f2ecd428036d4074b81fa4d4f0235a4329c441
+a
+1src/main/java/oop/service/DataBaseRepository.java,a/7/a74ee19c52ebbc7f8b32e9057c437b5bdfd37cd7
+\
+,src/main/java/oop/service/MemRepository.java,3/4/341bc8ca71c7c6f3076c6e5f187d518d45014270
+U
+%src/main/java/oop/service/Runner.java,a/2/a203cf191c2e6cd2b6b5d483661ec02dbc550fa4
+V
+&src/main/java/oop/service/Service.java,b/c/bcefd5e86fbcd5d26cd53e0fedd47f00689f6213
+P
+ src/main/java/oop/sort/Book.java,4/1/41e529cd8cf730568cf71dbb17531c76a548ef15
+W
+'src/main/java/oop/sort/BookService.java,0/0/004812c132528f8e0f57a1b450e21aab27608151
+[
++src/test/java/oop/sort/BookServiceTest.java,9/0/90c4f8eecc9f741fb9798437e490a3c4e52b4d5e
+W
+'src/main/java/oop/secure/SslSecure.java,0/b/0b3ed266fd55ac2771140115bb23889e5b089aff

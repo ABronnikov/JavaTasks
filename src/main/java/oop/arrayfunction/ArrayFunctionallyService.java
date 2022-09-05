@@ -6,11 +6,8 @@ public class ArrayFunctionallyService {
         ArrayDetail arrayDetail = new ArrayDetail();
         arrayDetail.setFirstElement(numbers[0]);
         arrayDetail.setLastElement(numbers[numbers.length - 1]);
-        int sum = 0;
-        for (int i = 1; i < numbers.length - 1; i++) {
-            sum += numbers[i];
-        }
-        arrayDetail.setSumBetweenFirstAndLast(sum);
+        ArrayFunctionallyService arrayFunctionallyService = new ArrayFunctionallyService();
+        arrayDetail.setSumBetweenFirstAndLast(arrayFunctionallyService.getSumNumbersBetweenIndex(numbers, 1, numbers.length - 2));
         return arrayDetail;
     }
 
