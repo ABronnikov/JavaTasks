@@ -4,14 +4,14 @@ public class Service {
 
     private final String SPACE_DELIMITER = " ";
 
-    private final MemRepository memRepository;
+    private final Store repository;
 
-    public Service(MemRepository memRepository) {
-        this.memRepository = memRepository;
+    public Service(Store repository) {
+        this.repository = repository;
     }
 
     public void getOnlyName() {
-        for (String string : memRepository.findAll()) {
+        for (String string : repository.findAll()) {
             System.out.println(string.split(SPACE_DELIMITER)[0]);
         }
     }
